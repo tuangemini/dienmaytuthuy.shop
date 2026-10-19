@@ -18,7 +18,7 @@
       badge: 'Bán Chạy',
       rating: 5.0,
       reviews: 48,
-      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/tv-sam-55q60.jpg',
       specs: ['Màn hình 55 inch QLED 4K', 'Quantum HDR 1 tỷ màu', 'Công nghệ âm thanh OTS Lite', 'Tặng gói Clip TV 1 năm'],
       features: 'Màn hình chấm lượng tử 100% dải màu, thiết kế AirSlim thanh mảnh siêu mỏng sang trọng.'
     },
@@ -32,7 +32,7 @@
       badge: 'Ưa Chuộng',
       rating: 4.9,
       reviews: 62,
-      image: 'https://images.unsplash.com/photo-1461151304267-38535e780c79?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/tv-sony-65x80.jpg',
       specs: ['65 inch 4K X-Reality PRO', 'Bộ xử lý 4K HDR X1', 'Âm thanh Dolby Atmos', 'Điều khiển giọng nói tiếng Việt'],
       features: 'Màu sắc sống động tự nhiên với Triluminos Pro, âm thanh vòm đỉnh cao như tại rạp chiếu phim.'
     },
@@ -46,7 +46,7 @@
       badge: 'Giá Sốc',
       rating: 4.8,
       reviews: 35,
-      image: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/tv-lg-50ur.jpg',
       specs: ['50 inch Real 4K UHD', 'Bộ xử lý AI α5 Gen6', 'Magic Remote chuột bay', 'webOS 23 mới nhất'],
       features: 'Hình ảnh sắc nét, điều khiển chuột bay Magic Remote độc quyền cực kỳ tiện lợi cho gia đình.'
     },
@@ -60,7 +60,7 @@
       badge: 'Tiết Kiệm Điện',
       rating: 5.0,
       reviews: 84,
-      image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/ac-daikin-9k.jpg',
       specs: ['Công suất 9.000 BTU (1HP)', 'Công nghệ lọc khí Streamer', 'Màng lọc Enzyme Blue + PM2.5', 'Gas R32 thân thiện môi trường'],
       features: 'Tiết kiệm điện vượt trội với mắt thần thông minh, luồng gió Coanda không thổi trực tiếp vào người.'
     },
@@ -74,7 +74,7 @@
       badge: 'Giá Rẻ Nhất',
       rating: 4.8,
       reviews: 51,
-      image: 'https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/ac-casper-9k.jpg',
       specs: ['9.000 BTU Inverter i-Saving', 'Làm lạnh siêu tốc Turbo', 'Cơ chế tự làm sạch iClean', 'Bảo hành 1 đổi 1 trong 1 năm'],
       features: 'Làm lạnh tức thì chỉ sau 30 giây, vận hành êm ái bền bỉ, chi phí cực kỳ tiết kiệm.'
     },
@@ -88,7 +88,7 @@
       badge: 'Kháng Khuẩn',
       rating: 4.9,
       reviews: 43,
-      image: 'https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/ac-pana-12k.jpg',
       specs: ['12.000 BTU cho phòng 15-20m²', 'Diệt khuẩn Nanoe-X & Nanoe-G', 'Công nghệ ECO tích hợp AI', 'Dàn tản nhiệt BlueFin chống ăn mòn'],
       features: 'Bảo vệ sức khỏe cả gia đình với khả năng lọc sạch 99% bụi mịn PM2.5 và vi khuẩn.'
     },
@@ -102,7 +102,7 @@
       badge: 'Cao Cấp',
       rating: 5.0,
       reviews: 39,
-      image: 'https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/fridge-hita-450.jpg',
       specs: ['Dung tích 406L mặt kính đen', 'Ngăn đông mềm Chilled', 'Hệ thống quạt kép Dual Fan', 'Cảm biến nhiệt Eco thông minh'],
       features: 'Mặt gương nguyên khối sang trọng, bảo quản thịt cá tươi ngon không cần rã đông.'
     },
@@ -116,7 +116,7 @@
       badge: 'Dung Tích Lớn',
       rating: 4.9,
       reviews: 29,
-      image: 'https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/fridge-sam-sbs.jpg',
       specs: ['Dung tích siêu lớn 655L', 'Công nghệ viền siêu mỏng SpaceMax', 'Làm lạnh vòm All-around Cooling', 'Khử mùi than hoạt tính Deodorizer'],
       features: 'Mở rộng không gian lưu trữ thực phẩm cho gia đình 5-7 người, khay kính chịu lực cao cấp.'
     },
@@ -130,7 +130,7 @@
       badge: 'Giặt Hơi Nước',
       rating: 5.0,
       reviews: 57,
-      image: 'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/wm-elec-9k.jpg',
       specs: ['Khối lượng giặt 9kg cửa trước', 'Công nghệ giặt hơi nước Hygienic Care', 'Động cơ EcoInverter siêu êm', 'Công nghệ UltraMix hòa tan bột giặt'],
       features: 'Bảo vệ sợi vải không bị phai màu, loại bỏ 99.9% vi khuẩn và tác nhân gây dị ứng da.'
     },
@@ -144,7 +144,7 @@
       badge: 'Công Nghệ AI',
       rating: 4.9,
       reviews: 64,
-      image: 'https://images.unsplash.com/photo-1545173168-9f1947eebb7f?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/wm-lg-10k.jpg',
       specs: ['Khối lượng 10kg màu xám khói', 'Trí tuệ nhân tạo AI DD bảo vệ sợi vải', 'Giặt nhanh TurboWash 59 phút', 'Điều khiển từ xa qua SmartThinQ'],
       features: 'Tự động cảm biến chất liệu sợi vải và độ bẩn để đưa ra chuyển động giặt tối ưu nhất.'
     },
@@ -158,7 +158,7 @@
       badge: 'Nóng Nguội',
       rating: 4.9,
       reviews: 31,
-      image: 'https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/gd-locnuoc-karofi.jpg',
       specs: ['10 lõi lọc công nghệ Smax gấp đôi công suất', '2 vòi 3 chế độ Nóng - Nguội', 'Màng RO Purifim Mỹ chuẩn y tế', 'Bổ sung khoáng chất Hydrogen'],
       features: 'Uống trực tiếp tại vòi không cần đun sôi, tiện lợi pha trà, cà phê, nấu mì nhanh chóng.'
     },
@@ -172,7 +172,7 @@
       badge: 'Tặng Thuê Bao',
       rating: 5.0,
       reviews: 78,
-      image: 'https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=600&q=80',
+      image: 'assets/img/products/kplus-tvbox.jpg',
       specs: ['Độ phân giải Full HD & 4K siêu mượt', 'Trọn gói các kênh Ngoại hạng Anh độc quyền', 'Hỗ trợ kết nối WiFi và dây LAN', 'Tích hợp kho phim và YouTube'],
       features: 'Biến mọi tivi thường thành Smart TV, xem truyền hình ổn định không giật lag.'
     }
