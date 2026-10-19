@@ -83,7 +83,7 @@
     <div class="sub-nav-bar">
       <div class="container sub-nav-links">
         <a href="#heroSection" class="active">🏠 Trang Chủ</a>
-        <a href="#tour360Section">🔄 Showroom 360°</a>
+        
         <a href="#catalogSection">📺 Danh Mục Sản Phẩm</a>
         <a href="#installmentSection">💳 Tính Trả Góp 0%</a>
         <a href="#commitmentsSection">🛡️ Chính Sách & Cam Kết</a>
@@ -132,8 +132,8 @@
           <a href="#catalogSection" class="btn btn-primary">
             <span>🛒 Khám Phá Sản Phẩm</span>
           </a>
-          <a href="#tour360Section" class="btn btn-outline">
-            <span>🔄 Khám Phá Showroom 360°</span>
+          <a href="https://maps.app.goo.gl/EdzysPzaL2VktRET9" target="_blank" rel="noopener" class="btn btn-outline">
+            <span>🗺️ Xem Bản Đồ Chỉ Đường</span>
           </a>
           <button class="btn btn-outline" onclick="window.openTuThuyChat('Tư vấn mua trả góp 0%')">
             <span>⚡ Hỏi Tư Vấn Nhanh</span>
@@ -179,47 +179,7 @@
     </div>
   </section>
 
-  <!-- ===================================================================
-       5. INTERACTIVE 360° SHOWROOM VIRTUAL TOUR
-       =================================================================== -->
-  <section class="tour-360-section" id="tour360Section">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-badge">TRẢI NGHIỆM TRỰC QUAN</span>
-        <h2 class="section-title">Khám Phá Showroom 360° Trực Tuyến</h2>
-        <p class="section-desc">
-          Trải nghiệm toàn cảnh gian hàng Điện Máy Tú Thủy ngay tại nhà. Nhấp chuột hoặc chạm vuốt để xoay 360°, chạm vào các điểm ghim để xem trực tiếp các dòng Tivi, Tủ Lạnh, Máy Giặt, Điều Hòa.
-        </p>
-      </div>
-
-      <div class="tour-360-card">
-        <!-- 360 Canvas Container -->
-        <div class="panorama-container" id="panorama360Container">
-          <!-- Canvas and hotspots are injected dynamically by panorama360.js -->
-        </div>
-
-        <!-- Tour Scenes & Angle Switcher Bar -->
-        <div class="tour-scenes-bar">
-          <div class="tour-angle-group">
-            <button class="tour-angle-btn active" data-src="assets/img/storefront-main.jpg">
-              🏢 Toàn Cảnh Showroom
-            </button>
-            <button class="tour-angle-btn" data-src="assets/img/storefront-angle-1.jpg">
-              📺 Góc Nhìn Gian Hàng 1
-            </button>
-            <button class="tour-angle-btn" data-src="assets/img/storefront-angle-3.jpg">
-              ❄️ Góc Nhìn Gian Hàng 2
-            </button>
-          </div>
-
-          <a href="https://maps.app.goo.gl/EdzysPzaL2VktRET9" target="_blank" rel="noopener" class="google-maps-360-link">
-            <span>🗺️ Mở Google Maps 360° Trực Tiếp</span>
-            <span>↗</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- 360 Section removed as requested -->
 
   <!-- ===================================================================
        6. DYNAMIC PRODUCT CATALOG & FILTER
@@ -601,7 +561,7 @@
   <!-- ===================================================================
        13. JAVASCRIPT MODULES
        =================================================================== -->
-  <script src="js/panorama360.js"></script>
+  
   <script src="js/app.js"></script>
   <script src="js/ai-assistant.js"></script>
 </body>
