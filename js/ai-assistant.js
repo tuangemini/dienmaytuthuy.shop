@@ -16,7 +16,7 @@
     fabBadge: 'Sẵn Sàng',
     avatarIcon: '⚡',
     subHeader: 'Bán Hàng Chính Hãng • Giá Tốt Nhất Hải Phòng',
-    footerNote: 'Điện Máy Tú Thủy • Hotline/Zalo: 0985 676 311 • nguyenanhtu70hp@gmail.com',
+    footerNote: 'Điện Máy Tú Thủy • ĐT: 0985.676.311 - 0775.262.474 - 0866.978.955 - 0389.650.516',
     deepseekModel: 'deepseek-chat',
     geminiModel: 'gemini-3.8-flash',
     provider: 'deepseek'
@@ -26,13 +26,11 @@
   const SYSTEM_KNOWLEDGE = `
 Bạn là đại diện chính thức, niềm nở, am hiểu kỹ thuật và tận tâm của "CỬA HÀNG ĐIỆN MÁY TÚ THUỶ" tại Hải Phòng.
 THÔNG TIN CHÍNH THỨC CỦA CỬA HÀNG:
-- Tên: CỬA HÀNG ĐIỆN MÁY TÚ THUỶ (Nhà phân phối Clip TV Box, K+, Đại lý ủy quyền điện máy chính hãng).
-- Khẩu hiệu: "Uy Tín Tạo Niềm Tin - Bán Hàng Chính Hãng - Giá Tốt - Bảo Hành Dài Hạn".
-- Địa chỉ cơ sở 1: Số 74 Tổ dân phố Mỹ Đồng 6, Phường Lê Ích Mộc, TP. Hải Phòng.
-- Địa chỉ cơ sở 2 (Showroom): Số 79 Đường 6C, Lê Thánh Tông, TP. Hải Phòng.
+- Tên: CỬA HÀNG ĐIỆN MÁY TÚ THUỶ (Bán hàng chính hãng - Giá tốt - Bảo hành dài hạn).
+- ĐỊA CHỈ: SỐ 79 ĐƯỜNG 6C - LÊ THÁNH TÔNG - HẢI PHÒNG.
 - Website chính thức: https://dienmaytuthuy.shop/
 - Định vị Google Maps: https://maps.app.goo.gl/EdzysPzaL2VktRET9 (Tọa độ: 20.9395104, 106.6305309).
-- Hotline & Zalo tư vấn / đặt hàng 24/7: 0985.676.311 (Hotline chính) - 0775.262.474 - 0866.978.955 - 0389.650.516 - 031 3873 144.
+- ĐIỆN THOẠI & ZALO TƯ VẤN (24/7): 0985.676.311 - 0775.262.474 - 0866.978.955 - 0389.650.516.
 - Email liên hệ: nguyenanhtu70hp@gmail.com
 - Giờ mở cửa: 07:30 đến 21:30 hàng ngày (kể cả Thứ 7, Chủ Nhật và ngày Lễ Tết).
 
@@ -97,10 +95,11 @@ QUY TẮC GIAO TIẾP VÀ TRẢ LỜI:
 
     if (q.includes('địa chỉ') || q.includes('ở đâu') || q.includes('chỉ đường') || q.includes('maps')) {
       return `Dạ **Điện Máy Tú Thủy** có 2 địa chỉ thuận tiện phục vụ Quý khách tại Hải Phòng ạ:\n\n` +
-        `📍 **Cơ sở 1:** Số 74 Tổ dân phố Mỹ Đồng 6, Phường Lê Ích Mộc, TP. Hải Phòng.\n` +
-        `📍 **Cơ sở 2 (Showroom):** Số 79 Đường 6C, Lê Thánh Tông, TP. Hải Phòng.\n` +
-        `🗺️ Google Maps: [Nhấn xem bản đồ đường đi](https://maps.app.goo.gl/EdzysPzaL2VktRET9)\n\n` +
-        `Quý khách có thể ghé trực tiếp từ 07:30 đến 21:30 hàng ngày hoặc gọi hotline **0985 676 311** để em chỉ đường nhanh nhất ạ!`;
+        `📍 **Địa chỉ duy nhất:** SỐ 79 ĐƯỜNG 6C - LÊ THÁNH TÔNG - HẢI PHÒNG.
+🗺️ Google Maps: [Nhấn xem bản đồ đường đi](https://maps.app.goo.gl/EdzysPzaL2VktRET9)
+📞 Điện thoại: **0985.676.311 - 0775.262.474 - 0866.978.955 - 0389.650.516**
+
+Quý khách có thể ghé trực tiếp từ 07:30 đến 21:30 hàng ngày hoặc gọi bất kỳ số hotline nào ở trên để bên em đón tiếp chu đáo nhất ạ!`;
     }
 
     if (q.includes('trả góp') || q.includes('lãi suất') || q.includes('thủ tục') || q.includes('cccd')) {
