@@ -315,8 +315,14 @@
             </ul>
 
             <div class="product-price-box">
-              <div class="product-sale-price">${formatVND(p.salePrice)}</div>
-              <div class="product-orig-price">${formatVND(p.originalPrice)}</div>
+              <div class="product-price-meta-label">
+                <span>Giá tham khảo:</span>
+                <span class="price-daily-tag">Thay đổi theo ngày</span>
+              </div>
+              <div class="product-price-main-row">
+                <div class="product-sale-price"><span class="price-prefix">~</span> ${formatVND(p.salePrice)}</div>
+                <div class="product-orig-price">${formatVND(p.originalPrice)}</div>
+              </div>
             </div>
 
             <div class="product-installment-tag">
@@ -392,9 +398,15 @@
           <div class="modal-rating">⭐⭐⭐⭐⭐ (${p.reviews} lượt đánh giá từ khách hàng Hải Phòng)</div>
 
           <div class="modal-price-row">
-            <span class="modal-sale-price">${formatVND(p.salePrice)}</span>
+            <div>
+              <div style="font-size:0.8rem; color:var(--text-muted); font-weight:700; margin-bottom:2px;">Giá tham khảo hôm nay:</div>
+              <span class="modal-sale-price">~ ${formatVND(p.salePrice)}</span>
+            </div>
             <span class="modal-orig-price">${formatVND(p.originalPrice)}</span>
             <span class="modal-discount-pill">Tiết kiệm ${discount}%</span>
+          </div>
+          <div style="font-size:0.78rem; color:var(--text-muted); margin-top:-6px; margin-bottom:14px; font-style:italic;">
+            * Giá sản phẩm thường thay đổi theo ngày và chính sách ưu đãi của hãng. Quý khách vui lòng gọi Hotline để nhận giá ưu đãi chính xác nhất.
           </div>
 
           <div class="modal-installment-banner">
