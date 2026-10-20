@@ -512,45 +512,177 @@ body.dark-mode .btn-hotline {
   color: rgba(255, 255, 255, 0.85);
 }
 
-/* Authorized Brands Marquee Bar */
+/* ==========================================================================
+   4. AUTHORIZED BRANDS SECTION (2 BALANCED ROWS)
+   ========================================================================== */
 .brand-marquee-section {
-  padding: 24px 0;
+  padding: 32px 0 38px;
   background: var(--bg-surface);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
+  position: relative;
 }
 
 .brand-marquee-title {
   text-align: center;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  letter-spacing: 1px;
-  margin-bottom: 16px;
-}
-
-.brand-logos-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.brand-badge-item {
+  font-size: 0.82rem;
   font-weight: 800;
-  font-size: 1.15rem;
-  color: var(--text-muted);
-  letter-spacing: 1px;
-  opacity: 0.75;
-  transition: var(--transition);
+  text-transform: uppercase;
+  color: var(--brand-red);
+  letter-spacing: 1.5px;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
-.brand-badge-item:hover {
-  opacity: 1;
-  color: var(--brand-red);
-  transform: translateY(-2px);
+.brand-marquee-title::before,
+.brand-marquee-title::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 45px;
+  background: linear-gradient(90deg, transparent, rgba(211, 47, 47, 0.4));
+}
+
+.brand-marquee-title::after {
+  background: linear-gradient(90deg, rgba(211, 47, 47, 0.4), transparent);
+}
+
+.brand-grid-two-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 14px;
+}
+
+.brand-logo-item {
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.brand-logo-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: transparent;
+  transition: background 0.25s ease;
+}
+
+.brand-logo-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(211, 47, 47, 0.35);
+  box-shadow: 0 8px 20px rgba(211, 47, 47, 0.12);
+}
+
+.brand-logo-item:hover::before {
+  background: var(--brand-red);
+}
+
+.brand-logo-item img {
+  max-width: 100%;
+  max-height: 38px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.25s ease, filter 0.25s ease;
+  filter: contrast(102%);
+}
+
+.brand-logo-item:hover img {
+  transform: scale(1.06);
+}
+
+/* Dark Mode Logo Card Handling */
+body.dark-mode .brand-logo-item {
+  background: #ffffff;
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .brand-logo-item:hover {
+  border-color: #ef4444;
+  box-shadow: 0 8px 22px rgba(239, 68, 68, 0.25);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .brand-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .brand-logo-item {
+    height: 58px;
+    padding: 8px 14px;
+  }
+  .brand-logo-item img {
+    max-height: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .brand-marquee-section {
+    padding: 24px 0 28px;
+  }
+  .brand-marquee-title {
+    font-size: 0.74rem;
+    letter-spacing: 0.8px;
+    margin-bottom: 16px;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .brand-marquee-title::before,
+  .brand-marquee-title::after {
+    display: none;
+  }
+  .brand-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .brand-logo-item {
+    height: 52px;
+    border-radius: 10px;
+    padding: 6px 10px;
+  }
+  .brand-logo-item img {
+    max-height: 28px;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .brand-logo-item {
+    height: 48px;
+    padding: 6px 10px;
+  }
+  .brand-logo-item img {
+    max-height: 26px;
+  }
 }
 
 /* ==========================================================================
