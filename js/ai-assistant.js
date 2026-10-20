@@ -27,7 +27,7 @@
 Bạn là đại diện chính thức, niềm nở, am hiểu kỹ thuật và tận tâm của "CỬA HÀNG ĐIỆN MÁY TÚ THUỶ" tại Hải Phòng.
 THÔNG TIN CHÍNH THỨC CỦA CỬA HÀNG:
 - Tên: CỬA HÀNG ĐIỆN MÁY TÚ THUỶ (Bán hàng chính hãng - Giá tốt - Bảo hành dài hạn).
-- ĐỊA CHỈ: SỐ 79 ĐƯỜNG 6C - LÊ THÁNH TÔNG - HẢI PHÒNG.
+- ĐỊA CHỈ: SỐ 74 - TDP MỸ ĐỒNG 2 - PHƯỜNG LÊ ÍCH MỘC - HẢI PHÒNG.
 - Website chính thức: https://dienmaytuthuy.shop/
 - Định vị Google Maps: https://maps.app.goo.gl/EdzysPzaL2VktRET9 (Tọa độ: 20.9395104, 106.6305309).
 - ĐIỆN THOẠI & ZALO TƯ VẤN (24/7): 0985.676.311 - 0775.262.474 - 0866.978.955 - 0389.650.516.
@@ -67,7 +67,7 @@ QUY TẮC GIAO TIẾP VÀ TRẢ LỜI:
 1. Luôn mở đầu lễ phép, thân tình: "Dạ em chào Quý khách! Điện Máy Tú Thủy rất hân hạnh được phục vụ Quý khách ạ."
 2. Trả lời súc tích, rõ ràng về thông số kỹ thuật, giá bán tham khảo và các ưu đãi khuyến mãi tặng kèm.
 3. Tuyệt đối KHÔNG xưng là AI, mô hình ngôn ngữ, DeepSeek hay Gemini. Bạn là chuyên viên tư vấn đại diện cho Điện Máy Tú Thủy.
-4. Luôn khuyến khích khách liên hệ Hotline/Zalo 0985 676 311 hoặc ghé trực tiếp số 74 TDP Mỹ Đồng 6 / số 79 Lê Thánh Tông để xem máy thực tế và nhận giá chiết khấu tốt nhất.
+4. Luôn khuyến khích khách liên hệ Hotline/Zalo 0985 676 311 hoặc ghé trực tiếp Số 74 - TDP Mỹ Đồng 2 - Phường Lê Ích Mộc - Hải Phòng để xem máy thực tế và nhận giá chiết khấu tốt nhất.
 `;
 
   let chatHistory = [
@@ -94,12 +94,10 @@ QUY TẮC GIAO TIẾP VÀ TRẢ LỜI:
     const q = question.toLowerCase();
 
     if (q.includes('địa chỉ') || q.includes('ở đâu') || q.includes('chỉ đường') || q.includes('maps')) {
-      return `Dạ **Điện Máy Tú Thủy** có 2 địa chỉ thuận tiện phục vụ Quý khách tại Hải Phòng ạ:\n\n` +
-        `📍 **Địa chỉ duy nhất:** SỐ 79 ĐƯỜNG 6C - LÊ THÁNH TÔNG - HẢI PHÒNG.
-🗺️ Google Maps: [Nhấn xem bản đồ đường đi](https://maps.app.goo.gl/EdzysPzaL2VktRET9)
-📞 Điện thoại: **0985.676.311 - 0775.262.474 - 0866.978.955 - 0389.650.516**
-
-Quý khách có thể ghé trực tiếp từ 07:30 đến 21:30 hàng ngày hoặc gọi bất kỳ số hotline nào ở trên để bên em đón tiếp chu đáo nhất ạ!`;
+      return `Dạ **Điện Máy Tú Thủy** kính mời Quý khách ghé trực tiếp xem máy và trải nghiệm tại showroom:\n\n` +
+        `📍 **Địa chỉ cửa hàng:** SỐ 74 - TDP MỸ ĐỒNG 2 - PHƯỜNG LÊ ÍCH MỘC - HẢI PHÒNG.\n` +
+        `📞 Điện thoại & Zalo (24/7): **0985.676.311 - 0775.262.474 - 0866.978.955 - 0389.650.516**\n\n` +
+        `Quý khách có thể ghé trực tiếp từ 07:30 đến 21:30 hàng ngày hoặc gọi bất kỳ số hotline nào ở trên để bên em hỗ trợ đón tiếp và giao lắp tận nhà chu đáo nhất ạ!`;
     }
 
     if (q.includes('trả góp') || q.includes('lãi suất') || q.includes('thủ tục') || q.includes('cccd')) {
