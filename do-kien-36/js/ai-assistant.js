@@ -1,5 +1,6 @@
 /**
  * TRỢ LÝ TƯ VẤN THƯƠNG HIỆU - CÔNG TY TNHH ĐỖ KIÊN 36
+ * Website chính thức: https://dokien36.biz/
  * Tích hợp đa kênh DeepSeek & Google Gemini với bộ lọc dự phòng 3 lớp
  * Tuân thủ tiêu chuẩn: Không gắn nhãn AI, đại diện chính thức của doanh nghiệp
  */
@@ -15,66 +16,69 @@
     companyFullName: 'CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐỖ KIÊN 36',
     representative: 'ĐỖ MINH VƯƠNG (Chủ tịch công ty kiêm Giám đốc)',
     taxCode: '1702335760',
+    website: 'https://dokien36.biz/',
     address: 'Số 35/5 đường Hồ Văn Huê, Phường Vĩnh Thông, TP. Rạch Giá, Tỉnh Kiên Giang',
     hotline: '0987.307.222',
     mapsUrl: 'https://maps.app.goo.gl/uJZcjyrYHzvKtVSw8',
     fabTitle: 'Hỏi Đỗ Kiên 36',
-    fabSub: 'Báo giá sỉ, giỏ quà & kho vận 24/7',
+    fabSub: 'Hàng tiêu dùng, giỏ quà & xe tải 24/7',
     fabBadge: 'Sẵn Sàng',
     avatarIcon: '🏢',
-    subHeader: 'Đại diện chính thức • Phục vụ đối tác 24/7',
-    footerNote: 'CÔNG TY TNHH ĐỖ KIÊN 36 • Đồng hành cùng phát triển',
+    subHeader: 'Đại diện chính thức • Kết nối B2B 24/7',
+    footerNote: 'CÔNG TY TNHH ĐỖ KIÊN 36 • dokien36.biz',
     deepseekModel: 'deepseek-chat',
     geminiModel: 'gemini-3.8-flash',
     provider: 'deepseek'
   };
 
-  // KHO TRI THỨC ĐẠI DIỆN THƯƠNG HIỆU ĐỖ KIÊN 36
+  // KHO TRI THỨC ĐẠI DIỆN THƯƠNG HIỆU ĐỖ KIÊN 36 (CHUẨN HÓA THEO HỒ SƠ 13 NĂM)
   const SYSTEM_KNOWLEDGE = `
-Bạn là đại diện chính thức, niềm nở, am hiểu thị trường và chuyên nghiệp của "CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐỖ KIÊN 36" (Nhà phân phối sỉ & lẻ Đỗ Kiên 36 tại Rạch Giá, Kiên Giang).
+Bạn là đại diện chính thức, niềm nở, chân thành và dày dạn kinh nghiệm thương trường của "CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐỖ KIÊN 36" (Website: https://dokien36.biz/).
 
-THÔNG TIN PHÁP LÝ & DOANH NGHIỆP:
-- Tên đầy đủ: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐỖ KIÊN 36
-- Tên viết tắt / Tên thương mại: CÔNG TY TNHH ĐỖ KIÊN 36 / NHÀ PHÂN PHỐI ĐỖ KIÊN 36
-- Mã số thuế: 1702335760
-- Người đại diện theo pháp luật: ĐỖ MINH VƯƠNG (Giới tính: Nam - Chức vụ: Chủ tịch công ty kiêm Giám đốc).
-- Địa chỉ trụ sở & kho hàng: Số 35/5 đường Hồ Văn Huê, Phường Vĩnh Thông, Thành phố Rạch Giá, Tỉnh Kiên Giang.
-- Bản đồ Google Maps: https://maps.app.goo.gl/uJZcjyrYHzvKtVSw8
-- Hotline / Zalo đặt hàng & báo giá: 0987.307.222 (Phục vụ 24/7).
-- Giờ làm việc: 07:00 - 20:00 tất cả các ngày trong tuần.
+THÔNG TIN PHÁP LÝ & HỒ SƠ DOANH NGHIỆP:
+- Tên công ty: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐỖ KIÊN 36 (ĐỖ KIÊN 36 CO., LTD)
+- Tên thương hiệu: ĐỖ KIÊN 36 / NHÀ PHÂN PHỐI ĐỖ KIÊN 36
+- Website chính thức: https://dokien36.biz/
+- Mã số thuế (MST): 1702335760
+- Người đại diện theo pháp luật: Ông ĐỖ MINH VƯƠNG (Giới tính: Nam - Chức vụ: Chủ tịch công ty kiêm Giám đốc).
+- Địa chỉ trụ sở & Tổng kho: Số 35/5 đường Hồ Văn Huê, Phường Vĩnh Thông, Thành phố Rạch Giá, Tỉnh Kiên Giang.
+- Google Maps: https://maps.app.goo.gl/uJZcjyrYHzvKtVSw8 (Tọa độ: 10.0340155, 105.0825116).
+- Hotline & Zalo: 0987.307.222 (Phục vụ 24/7).
+- Giờ hoạt động kho hàng: 07:00 - 20:00 hàng ngày (kể cả Thứ Bảy, Chủ Nhật và ngày Lễ).
 
-LĨNH VỰC HOẠT ĐỘNG CHỦ LỰC:
-1. PHÂN PHỐI SỈ & LẺ BÁCH HÓA TỔNG HỢP & NHU YẾU PHẨM:
-   - Đồ uống, nước giải khát, bia, nước ngọt, sữa, nước khoáng các thương hiệu hàng đầu.
-   - Bánh kẹo, thực phẩm khô, gia vị, dầu ăn, gạo sạch, mì ăn liền.
-   - Hóa mỹ phẩm, nước giặt, nước xả, chất tẩy rửa sinh hoạt gia đình và cơ quan.
-   - Cung cấp nguồn hàng giá sỉ tận gốc cho các tiệm tạp hóa, siêu thị mini, bếp ăn công nghiệp, trường học, khách sạn tại Kiên Giang và các tỉnh miền Tây lân cận.
+HÀNH TRÌNH 13 NĂM KHỞI NGHIỆP TỪ CON SỐ 0:
+- Người sáng lập: Ông Đỗ Minh Vương sinh ra ở vùng quê nghèo tỉnh Thanh Hóa, với ý chí vươn lên mãnh liệt đã vào miền Nam lập nghiệp.
+- Những ngày đầu tại Kiên Giang: Tự mình chở từng bao cà phê bằng xe máy rong ruổi khắp ngõ hẻm, gõ cửa từng quán cóc, tiệm tạp hóa nhỏ dưới nắng mưa suốt nhiều năm trời.
+- Bài học cốt lõi & Triết lý kinh doanh: "Khách hàng không cần người nói hay, họ cần người giải quyết triệt để nỗi lo thực tế của họ!"
+- Kết quả sau 13 năm xây dựng uy tín:
+  + 13 năm kinh nghiệm chuyên sâu trong ngành phân phối hàng tiêu dùng tại miền Tây.
+  + Mạng lưới 2.000+ Đại lý & Điểm bán phủ sóng toàn tỉnh Kiên Giang từ kênh rạch nông thôn đến thành thị.
+  + Đội ngũ 30+ nhân sự giao vận chuyên nghiệp cùng hệ thống xe tải lớn nhỏ (Hino, Isuzu, Thaco) đáp ứng mọi đơn hàng lớn nhỏ.
+  + Tổng kho bãi trung tâm hiện đại đặt tại TP. Rạch Giá.
 
-2. CUNG CẤP GIỎ QUÀ TẾT & QUÀ TẶNG DOANH NGHIỆP:
-   - Chuyên đóng gói sỉ & lẻ Giỏ quà Tết, Hộp quà Tết cao cấp mừng xuân theo yêu cầu.
-   - Phân khúc đa dạng: Từ gói bình dân (150k - 300k - 500k) đến gói cao cấp sang trọng (1.000.000đ - 3.000.000đ+).
-   - Thiết kế nhãn mác, thiệp chúc mừng, in ấn logo doanh nghiệp riêng theo yêu cầu.
-   - Chiết khấu hấp dẫn lên tới 10% - 25% cho đơn hàng số lượng lớn của cơ quan, xí nghiệp, đoàn thể.
+BA NHÓM ĐỐI TÁC CHIẾN LƯỢC CẦN KẾT NỐI B2B:
+1. Nhóm 01 - Nhà Phân Phối (NPP) & Tổng thầu:
+   - Các tổng thầu, tổng kho hàng tiêu dùng tại các tỉnh thành cần nguồn hàng sinh học chuẩn chỉnh, an toàn, giá gốc ổn định lâu dài.
+2. Nhóm 02 - Đại Lý & Tiệm Tạp Hóa:
+   - Các tiệm tạp hóa, bách hóa tổng hợp, siêu thị mini muốn mở rộng sản phẩm bán chạy, nguồn hàng dồi dào, quay vòng vốn nhanh, chiết khấu cao.
+3. Nhóm 03 - Cơ Sở Dịch Vụ Dùng Lớn:
+   - Chuỗi tiệm giặt sấy, khách sạn, nhà nghỉ, homestay, trường mầm non, cơ quan có nhu cầu giặt xả cao (nước giặt xả công nghiệp & sinh học chất lượng cao, can 5L - 25L tiết kiệm chi phí).
+4. Doanh nghiệp & Đoàn thể đặt Giỏ Quà Tết:
+   - Chuyên đóng gói sỉ & lẻ Giỏ quà Tết, Hộp quà Tết cao cấp mừng xuân theo ngân sách từ 200.000đ đến 3.000.000đ+, in logo thiệp chúc mừng, chiết khấu tới 25%.
 
-3. DỊCH VỤ KHO BÃI & VẬN TẢI HÀNG HÓA ĐƯỜNG BỘ:
-   - Đội xe tải chuyên dụng giao nhận tận nơi nhanh chóng, an toàn tuyệt đối.
-   - Nhận lưu kho, bảo quản hàng hóa bách hóa, đảm bảo tiêu chuẩn an toàn vệ sinh thực phẩm.
-
-CHÍNH SÁCH BÁN HÀNG & CAM KẾT:
-- 100% hàng hóa chính hãng, date mới, đầy đủ hóa đơn GTGT (VAT) hợp lệ cho doanh nghiệp.
-- Giao hàng hỏa tốc trong ngày tại TP. Rạch Giá và vận chuyển tận nơi toàn tỉnh Kiên Giang.
-- Chính sách giá sỉ ưu đãi, hỗ trợ công nợ linh hoạt cho đại lý thân thiết.
+THÔNG ĐIỆP KẾT NỐI B2B / BNI:
+"Tôi có người anh em 13 năm phân phối hàng tiêu dùng tận gốc, chính sách cực tốt. Để tôi kết nối hai bên làm việc!"
 
 QUY TẮC GIAO TIẾP:
-1. Luôn mở đầu thân thiện, lễ phép: "Dạ em chào Quý khách! Em là đại diện tư vấn của Công ty Đỗ Kiên 36 tại Rạch Giá rất hân hạnh được hỗ trợ Quý khách ạ."
-2. Tuyệt đối KHÔNG xưng là AI, mô hình ngôn ngữ, DeepSeek hay Gemini. Bạn là nhân viên tư vấn đại diện cho Công ty TNHH Đỗ Kiên 36.
-3. Khi khách hỏi về báo giá sỉ hoặc giỏ quà số lượng lớn, luôn mời khách để lại số điện thoại/Zalo hoặc gọi ngay Hotline 0987 307 222 để Giám đốc Đỗ Minh Vương cùng đội ngũ báo giá chiết khấu kịch sàn.
+1. Xưng hô thân tình, chuyên nghiệp, lễ phép: "Dạ em chào Quý khách/Quý đối tác! Em là đại diện tư vấn của Công ty Đỗ Kiên 36 rất hân hạnh được hỗ trợ Quý khách ạ."
+2. Tuyệt đối KHÔNG xưng là AI, DeepSeek hay Gemini. Bạn là nhân viên tư vấn đại diện cho Đỗ Kiên 36.
+3. Với các đối tác B2B, tiệm tạp hóa, xưởng giặt sấy hoặc khách sạn, luôn mời kết nối Hotline/Zalo 0987.307.222 để Giám đốc Đỗ Minh Vương trực tiếp trao đổi chính sách đại lý và gửi mẫu thử nghiệm.
 `;
 
   let chatHistory = [
     {
       role: 'assistant',
-      content: `Dạ em chào Quý khách! Em là đại diện tư vấn của **CÔNG TY TNHH ĐỖ KIÊN 36** (Rạch Giá - Kiên Giang). Bên em chuyên **Phân phối sỉ & lẻ bách hóa tổng hợp, Giỏ quà Tết doanh nghiệp & Dịch vụ vận tải kho vận**. Quý khách đang cần nhận báo giá sỉ mặt hàng nào hay tư vấn giỏ quà tặng hôm nay ạ?`
+      content: `Dạ em chào Quý khách! Em là đại diện tư vấn của **CÔNG TY TNHH ĐỖ KIÊN 36** (Website: [dokien36.biz](https://dokien36.biz/)). Với **hành trình 13 năm phân phối hàng tiêu dùng** tại Kiên Giang, bên em sẵn sàng hỗ trợ **Báo giá sỉ bách hóa, Giỏ quà Tết doanh nghiệp & Nước giặt xả cho chuỗi giặt sấy/khách sạn**. Quý khách đang cần hỗ trợ mặt hàng nào ạ?`
     }
   ];
 
@@ -90,51 +94,55 @@ QUY TẮC GIAO TIẾP:
       .replace(/\n\n+/g, '<br><br>').replace(/\n/g, '<br>');
   }
 
-  // Bộ lọc tri thức cục bộ (Smart Local Fallback) dự phòng khi mất kết nối mạng
+  // Bộ lọc tri thức cục bộ Smart Fallback khi mất kết nối mạng
   function getSmartFallbackReply(question) {
     const q = question.toLowerCase();
 
-    if (q.includes('địa chỉ') || q.includes('ở đâu') || q.includes('vị trí') || q.includes('maps') || q.includes('chỉ đường')) {
-      return `Dạ **CÔNG TY TNHH ĐỖ KIÊN 36** kính mời Quý khách ghé trực tiếp kho hàng tại:\n\n` +
-        `📍 **Địa chỉ:** Số 35/5 đường Hồ Văn Huê, Phường Vĩnh Thông, TP. Rạch Giá, Tỉnh Kiên Giang.\n` +
-        `🗺️ **Bản đồ chỉ đường:** [Xem vị trí trên Google Maps](${CONFIG.mapsUrl})\n` +
-        `📞 **Hotline/Zalo:** **${CONFIG.hotline}** (Hỗ trợ 24/7)\n\n` +
-        `Kho hàng mở cửa từ 07:00 - 20:00 hàng ngày, bãi đỗ xe tải và ô tô thuận tiện bốc dỡ hàng hóa ạ!`;
+    if (q.includes('hành trình') || q.includes('13 năm') || q.includes('lịch sử') || q.includes('câu chuyện') || q.includes('thanh hóa') || q.includes('vương')) {
+      return `Dạ **Hành trình 13 năm của Đỗ Kiên 36** là câu chuyện khởi nghiệp đầy tâm huyết từ con số 0 của Giám đốc **ĐỖ MINH VƯƠNG** ạ:\n\n` +
+        `• **Xuất thân:** Người con vùng quê nghèo Thanh Hóa, với ý chí vươn lên đã vào miền Nam lập nghiệp.\n` +
+        `• **Những ngày đầu Kiên Giang:** Tự chở từng bao cà phê bằng xe máy, rong ruổi gõ cửa từng quán cóc, tiệm tạp hóa nhỏ dưới nắng mưa.\n` +
+        `• **Bài học cốt lõi:** *"Khách hàng không cần người nói hay, họ cần người giải quyết triệt để nỗi lo thực tế của họ!"*\n` +
+        `• **Hiện nay:** Đỗ Kiên 36 đã phát triển thành tổng kho với mạng lưới **2.000+ đại lý & điểm bán** phủ khắp Kiên Giang, đội ngũ **30+ nhân sự giao vận** và hệ thống xe tải Hino, Isuzu, Thaco đáp ứng mọi đơn hàng lớn nhỏ!\n\n` +
+        `Mời Quý khách kết nối trực tiếp với Giám đốc Vương qua Hotline/Zalo: **${CONFIG.hotline}** ạ!`;
+    }
+
+    if (q.includes('đối tác') || q.includes('b2b') || q.includes('bni') || q.includes('kết nối') || q.includes('giặt sấy') || q.includes('khách sạn')) {
+      return `Dạ **Đỗ Kiên 36** đang tìm kiếm và mở rộng kết nối với 3 nhóm đối tác chiến lược B2B:\n\n` +
+        `1. **Nhà Phân Phối (NPP) & Tổng thầu:** Cần nguồn hàng sinh học chuẩn chỉnh, giá gốc ổn định.\n` +
+        `2. **Đại lý & Tiệm tạp hóa:** Các cửa hàng, siêu thị mini muốn mở rộng sản phẩm bán chạy, quay vòng vốn nhanh.\n` +
+        `3. **Cơ sở dịch vụ dùng lớn:** Chuỗi tiệm giặt sấy, khách sạn, nhà nghỉ, homestay, trường mầm non có nhu cầu giặt xả cao với dung tích can lớn tiết kiệm.\n\n` +
+        `*"Tôi có người anh em 13 năm phân phối hàng tiêu dùng tận gốc, chính sách cực tốt. Để tôi kết nối hai bên làm việc!"*\n` +
+        `Quý khách gọi ngay Hotline **${CONFIG.hotline}** để được tư vấn chính sách B2B tốt nhất ạ!`;
+    }
+
+    if (q.includes('địa chỉ') || q.includes('ở đâu') || q.includes('vị trí') || q.includes('maps') || q.includes('hồ văn huê')) {
+      return `Dạ Tổng kho **CÔNG TY TNHH ĐỖ KIÊN 36** kính mời Quý khách ghé trực tiếp tại:\n\n` +
+        `📍 **Địa chỉ:** ${CONFIG.address}\n` +
+        `🗺️ **Google Maps:** [Xem vị trí & chỉ đường trên Google Maps](${CONFIG.mapsUrl})\n` +
+        `🌐 **Website:** [dokien36.biz](https://dokien36.biz/)\n` +
+        `📞 **Hotline/Zalo:** **${CONFIG.hotline}**\n\n` +
+        `Kho hàng mở cửa từ 07:00 - 20:00 hàng ngày, sân bãi rộng rãi cho xe tải và ô tô bốc dỡ hàng hóa thuận tiện ạ!`;
     }
 
     if (q.includes('giá') || q.includes('báo giá') || q.includes('sỉ') || q.includes('đại lý') || q.includes('chiết khấu')) {
-      return `Dạ bên em chuyên cung cấp **giá sỉ tận gốc** bách hóa tổng hợp và nhu yếu phẩm với chính sách chiết khấu rất tốt cho đại lý, tiệm tạp hóa và doanh nghiệp:\n\n` +
-        `• Hàng chính hãng 100%, date mới, đầy đủ hóa đơn VAT.\n` +
-        `• Chiết khấu cao theo khối lượng đơn hàng.\n` +
-        `• Miễn phí giao hàng tại TP. Rạch Giá và hỗ trợ vận chuyển toàn miền Tây.\n\n` +
-        `Quý khách vui lòng gọi hoặc nhắn tin Zalo số **${CONFIG.hotline}** (Giám đốc Đỗ Minh Vương), bên em gửi bảng báo giá chi tiết từng mã hàng ngay ạ!`;
+      return `Dạ bên em cam kết cung cấp **giá sỉ tận gốc** với chính sách chiết khấu rất tốt cho các tiệm tạp hóa, đại lý và đối tác doanh nghiệp:\n\n` +
+        `• 100% hàng chính hãng, date mới từ nhà máy, hóa đơn VAT đầy đủ.\n` +
+        `• Hơn 2.000 đại lý tin tưởng đồng hành suốt 13 năm qua.\n` +
+        `• Đội xe tải Hino, Isuzu, Thaco giao hàng tận nơi hỏa tốc toàn tỉnh Kiên Giang.\n\n` +
+        `Quý khách gọi hoặc nhắn Zalo **${CONFIG.hotline}**, Giám đốc Đỗ Minh Vương cùng đội ngũ sẽ gửi bảng giá chiết khấu đại lý ngay lập tức ạ!`;
     }
 
-    if (q.includes('quà tết') || q.includes('giỏ quà') || q.includes('hộp quà') || q.includes('quà tặng')) {
-      return `Dạ **Đỗ Kiên 36** là đơn vị hàng đầu tại Rạch Giá chuyên nhận gia công & cung cấp **Giỏ quà Tết, Hộp quà tết doanh nghiệp** theo yêu cầu:\n\n` +
-        `🎁 **Phân khúc đa dạng:** Từ 200k, 350k, 500k đến các gói VIP 1.000.000đ - 3.000.000đ+.\n` +
-        `🎁 **Tùy chỉnh linh hoạt:** Đóng giỏ theo ngân sách và lựa chọn món của khách hàng (bánh kẹo cao cấp, rượu vang, hạt dinh dưỡng, trà, cà phê).\n` +
-        `🎁 **Ưu đãi lớn:** Miễn phí in thiệp chúc mừng, in logo công ty và chiết khấu cao cho đơn hàng số lượng nhiều.\n\n` +
-        `Quý khách kết bạn Zalo **${CONFIG.hotline}**, bên em gửi mẫu hình ảnh thực tế và bảng giá giỏ quà tết ngay ạ!`;
+    if (q.includes('quà tết') || q.includes('giỏ quà') || q.includes('hộp quà')) {
+      return `Dạ **Đỗ Kiên 36** chuyên gia công & cung cấp sỉ/lẻ **Giỏ Quà Tết, Hộp Quà Tết Doanh Nghiệp** theo yêu cầu:\n\n` +
+        `🎁 **Đa dạng phân khúc:** Từ 200k, 350k, 500k đến các gói cao cấp 1 - 3 triệu đồng.\n` +
+        `🎁 **Tùy chỉnh linh hoạt:** Đóng giỏ theo ngân sách và sở thích sản phẩm.\n` +
+        `🎁 **In ấn riêng:** Miễn phí in logo doanh nghiệp, thiệp chúc Tết dập nhũ vàng.\n` +
+        `🎁 **Chiết khấu:** Lên đến 15% - 25% cho đơn hàng số lượng nhiều của cơ quan, xí nghiệp.\n\n` +
+        `Quý khách nhắn Zalo số **${CONFIG.hotline}**, bên em gửi ngay Catalogue mẫu giỏ quà Tết thực tế ạ!`;
     }
 
-    if (q.includes('giám đốc') || q.includes('đại diện') || q.includes('vương') || q.includes('đỗ minh vương') || q.includes('mst')) {
-      return `Dạ thông tin pháp lý của công ty em như sau ạ:\n\n` +
-        `• **Tên công ty:** ${CONFIG.companyFullName}\n` +
-        `• **Mã số thuế:** ${CONFIG.taxCode}\n` +
-        `• **Người đại diện theo pháp luật:** Ông **ĐỖ MINH VƯƠNG** - Chủ tịch công ty kiêm Giám đốc.\n` +
-        `• **Trụ sở:** ${CONFIG.address}.\n` +
-        `• **Hotline liên hệ trực tiếp:** **${CONFIG.hotline}**`;
-    }
-
-    if (q.includes('vận chuyển') || q.includes('giao hàng') || q.includes('xe tải') || q.includes('ship')) {
-      return `Dạ bên em có đội xe tải chuyên chở hàng hóa đường bộ riêng, nhận giao hàng nhanh chóng tận nơi:\n\n` +
-        `🚚 Giao ngay trong ngày tại TP. Rạch Giá, Kiên Lương, Hà Tiên, Hòn Đất, Giồng Riềng, Gò Quao, An Biên, Phú Quốc...\n` +
-        `🚚 Đảm bảo hàng hóa nguyên vẹn, bốc dỡ tận kho cho Quý khách.\n` +
-        `Quý khách gọi hotline **${CONFIG.hotline}** để được sắp xếp lịch xe giao sớm nhất ạ!`;
-    }
-
-    return `Dạ em cảm ơn Quý khách đã quan tâm đến **CÔNG TY TNHH ĐỖ KIÊN 36**! Để nhận được tư vấn chi tiết nhất và bảng báo giá sỉ ưu đãi hôm nay, Quý khách vui lòng liên hệ trực tiếp Hotline/Zalo: **${CONFIG.hotline}** hoặc để lại số điện thoại, Giám đốc Đỗ Minh Vương cùng đội ngũ sẽ phản hồi ngay ạ!`;
+    return `Dạ em cảm ơn Quý khách đã quan tâm đến **CÔNG TY TNHH ĐỖ KIÊN 36** (Website: dokien36.biz)! Để được phục vụ chu đáo nhất và nhận bảng báo giá sỉ ưu đãi, Quý khách vui lòng gọi Hotline/Zalo: **${CONFIG.hotline}**, Giám đốc Đỗ Minh Vương cùng đội ngũ luôn sẵn sàng hỗ trợ 24/7 ạ!`;
   }
 
   // API Callers
@@ -234,10 +242,10 @@ QUY TẮC GIAO TIẾP:
       </div>
 
       <div class="brand-quick-suggestions">
-        <button class="suggestion-chip" data-q="Báo giá sỉ bách hóa tổng hợp">📦 Báo giá sỉ</button>
-        <button class="suggestion-chip" data-q="Tư vấn đặt giỏ quà Tết doanh nghiệp">🎁 Giỏ quà Tết</button>
-        <button class="suggestion-chip" data-q="Địa chỉ kho hàng & chỉ đường">📍 Kho hàng ở đâu?</button>
-        <button class="suggestion-chip" data-q="Chính sách giao hàng và xe tải">🚚 Vận chuyển</button>
+        <button class="suggestion-chip" data-q="Hành trình 13 năm xây dựng uy tín của Giám đốc Đỗ Minh Vương">🌟 Hành trình 13 năm</button>
+        <button class="suggestion-chip" data-q="Chính sách cho 3 nhóm đối tác B2B (NPP, Tạp hóa, Khách sạn giặt sấy)">🤝 Kết nối B2B</button>
+        <button class="suggestion-chip" data-q="Báo giá sỉ bách hóa và hàng tiêu dùng sinh học">📦 Báo giá sỉ</button>
+        <button class="suggestion-chip" data-q="Tư vấn đặt Giỏ quà Tết doanh nghiệp theo ngân sách">🎁 Giỏ quà Tết</button>
       </div>
 
       <div class="brand-chat-body" id="brandChatBody">
@@ -319,7 +327,7 @@ QUY TẮC GIAO TIẾP:
       loading.className = 'brand-msg bot loading-state';
       loading.innerHTML = `
         <div class="brand-msg-avatar">${CONFIG.avatarIcon}</div>
-        <div class="brand-msg-bubble"><span class="typing-dots"><span>.</span><span>.</span><span>.</span></span> Đang kiểm tra thông tin...</div>
+        <div class="brand-msg-bubble"><span class="typing-dots"><span>.</span><span>.</span><span>.</span></span> Đang kiểm tra thông tin đối tác...</div>
       `;
       chatBody.appendChild(loading);
       chatBody.scrollTop = chatBody.scrollHeight;

@@ -81,26 +81,38 @@
     {
       id: 'ny-02',
       category: 'nhuyeupham',
-      name: 'Hóa Mỹ Phẩm, Nước Giặt Xả OMO, Comfort',
-      tag: 'Chính Hãng 100%',
-      price: 210000,
-      wholesalePrice: 185000,
-      minOrder: '15 can/thùng',
+      name: 'Nước Giặt Xả Sinh Học Đậm Đặc Can 10L - 20L',
+      tag: 'Chuỗi Giặt Sấy & Khách Sạn',
+      price: 260000,
+      wholesalePrice: 195000,
+      minOrder: '5 can',
       image: 'https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=600&q=80',
-      desc: 'Nước giặt xả OMO Matic, Ariel, Comfort, nước rửa chén Sunlight, nước lau sàn Sunlight thùng lớn tiết kiệm.',
-      features: ['Hàng xuất kho trực tiếp từ nhà máy', 'Chiết khấu hấp dẫn theo bậc số lượng', 'Bao đổi trả nếu lỗi bao bì']
+      desc: 'Công nghệ sinh học an toàn cho da, thơm lâu, tẩy vết bẩn sâu. Chuyên dụng cho tiệm giặt sấy, khách sạn, nhà nghỉ, trường mầm non.',
+      features: ['Can 10L - 20L tiết kiệm đến 40% chi phí', 'Hương hoa dịu nhẹ lưu hương trên 72h', 'Giao hàng định kỳ tận nơi tại Rạch Giá & Kiên Giang']
+    },
+    {
+      id: 'sh-01',
+      category: 'nhuyeupham',
+      name: 'Nguồn Hàng Tiêu Dùng Sinh Học Chuẩn Chỉnh (NPP)',
+      tag: 'Tổng Thầu & NPP',
+      price: 350000,
+      wholesalePrice: 280000,
+      minOrder: 'Đơn từ 20 triệu',
+      image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80',
+      desc: 'Nước rửa chén sinh học, lau sàn tinh dầu quế, nước xả vải sinh học nguồn gốc tự nhiên, an toàn cho mẹ & bé.',
+      features: ['Giá gốc cam kết ổn định lâu dài', 'Hỗ trợ hợp đồng độc quyền theo huyện/tỉnh', 'Đầy đủ kiểm nghiệm viện Pasteur & hóa đơn VAT']
     },
     {
       id: 'vt-01',
       category: 'vanchuyen',
-      name: 'Dịch Vụ Vận Tải Hàng Hóa Đường Bộ',
-      tag: 'Đội Xe Riêng',
-      price: 500000,
-      wholesalePrice: 400000,
-      minOrder: 'Theo chuyến/tháng',
+      name: 'Hệ Thống Xe Tải Hino, Isuzu, Thaco Giao Vận',
+      tag: '30+ Nhân Sự Giao Vận',
+      price: 600000,
+      wholesalePrice: 450000,
+      minOrder: 'Theo chuyến / hợp đồng tháng',
       image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80',
-      desc: 'Nhận chở hàng bách hóa, nông sản, vật tư từ Rạch Giá đi các huyện Kiên Lương, Giồng Riềng, Phú Quốc...',
-      features: ['Đội xe tải từ 1.5 tấn đến 15 tấn', 'Tài xế nhiều năm kinh nghiệm, cẩn thận', 'Bảo hiểm hàng hóa 100% khi vận chuyển']
+      desc: 'Đội xe tải lớn nhỏ phủ sóng hơn 2.000 đại lý toàn tỉnh Kiên Giang từ nông thôn, kênh rạch đến thành thị.',
+      features: ['Tải trọng linh hoạt từ 1.5 tấn đến 15 tấn', 'Bốc dỡ hàng cẩn thận, đúng giờ hẹn', 'Bảo hiểm hàng hóa 100% trong quá trình vận chuyển']
     }
   ];
 
