@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "id": "node_01",
+      "x": 100,
+      "y": 100,
+      "width": 320,
+      "height": 180,
+      "type": "text",
+      "text": "### 🌅 1. KHỞI NGUỒN TÂM THỨC\n**Tuyên ngôn Kiến Tạo Cuộc Sống xAI**\n- Đạo diễn: Ông chủ Tuấn Tử Tế (Nha Trang)\n- Đối tượng: Người đi làm 38-58 tuổi\n- 4 Trụ cột: Khỏe mạnh • Thịnh vượng • Hạnh phúc • Di sản",
+      "color": "1"
+    },
+    {
+      "id": "node_02",
+      "x": 480,
+      "y": 100,
+      "width": 320,
+      "height": 180,
+      "type": "text",
+      "text": "### ⚡ 2. BỐI CẢNH KỶ NGUYÊN SỐ\n**Khủng hoảng & Cơ hội Đòn bẩy AI**\n- Nỗi sợ bị bỏ lại tuổi 45+\n- Giải phóng 70% áp lực sự vụ\n- Biến AI thành 1.000 kỹ sư trung thành",
+      "color": "2"
+    },
+    {
+      "id": "node_03",
+      "x": 860,
+      "y": 100,
+      "width": 360,
+      "height": 220,
+      "type": "text",
+      "text": "### 🎬 3. VIDEO CINEMA 01 (SLIDE 3)\n**SÔNG NILE VÀ BIỂN CHẾT**\n- File: `01_Song_Nile_Va_Bien_Chet_16x9.mp4`\n- Triết lý: Cho đi để trường tồn\n- Âm thanh: Voice Nam Minh + Nhạc 432Hz\n- Kính mờ: Subtitle lớn chuẩn rạp chiếu",
+      "color": "4"
+    },
+    {
+      "id": "node_04",
+      "x": 1280,
+      "y": 100,
+      "width": 360,
+      "height": 220,
+      "type": "text",
+      "text": "### 🎬 4. VIDEO CINEMA 02 (SLIDE 4)\n**HIỆU ỨNG CÁNH BƯỚM & xAI**\n- File: `02_Hieu_Ung_Canh_Buom_16x9.mp4`\n- Triết lý: Lãi kép 1% mỗi ngày\n- Vrace 5h30 sáng kích hoạt Dopamine\n- Cấp số nhân công nghệ trong đời sống",
+      "color": "4"
+    },
+    {
+      "id": "node_05",
+      "x": 100,
+      "y": 380,
+      "width": 320,
+      "height": 180,
+      "type": "text",
+      "text": "### 🔄 5. THẺ LẬT 3D TRƯỚC / SAU\n**Chuyển hóa 1 Ngày của Người 45+**\n- Trước: Ngập trong 35 email, kiệt sức 23h\n- Sau: xAI tóm tắt 80/20, thảnh thơi chạy bộ 5km",
+      "color": "3"
+    },
+    {
+      "id": "node_06",
+      "x": 480,
+      "y": 380,
+      "width": 320,
+      "height": 180,
+      "type": "text",
+      "text": "### 🎯 6. BÁNH XE CUỘC ĐỜI 4D\n**Tự chẩn đoán 6 nan hoa**\n- Thân thể Vrace (Zone 2)\n- Tâm trí tĩnh tại (Zen)\n- Gia đình thấu cảm Gen Z\n- Hiệu suất xAI • Tài chính • Di sản",
+      "color": "5"
+    },
+    {
+      "id": "node_07",
+      "x": 860,
+      "y": 380,
+      "width": 360,
+      "height": 220,
+      "type": "text",
+      "text": "### 🎬 7. VIDEO CINEMA 03 (SLIDE 7)\n**VINCENT VAN GOGH - DI SẢN 180M**\n- File: `03_Van_Gogh_Di_San_180M_16x9.mp4`\n- Triết lý: Giá trị đích thực vượt thời gian\n- Đừng làm thợ hồ; Hãy là Tổng công trình sư kiệt tác cuộc đời!",
+      "color": "4"
+    },
+    {
+      "id": "node_08",
+      "x": 1280,
+      "y": 380,
+      "width": 360,
+      "height": 220,
+      "type": "text",
+      "text": "### 📐 8. MASTER BLUEPRINT 4D\n**Bản vẽ Tổng Công Trình Sư**\n- Tích hợp 5 phong cách nghệ thuật\n- Checkbox ẩn/hiện tùy biến giáo án\n- TTS thông minh đổi giọng Nam/Nữ",
+      "color": "6"
+    },
+    {
+      "id": "node_09",
+      "x": 100,
+      "y": 660,
+      "width": 320,
+      "height": 180,
+      "type": "text",
+      "text": "### 🏃 9. NHỊP CHUYỂN HÓA 24H\n**Cầu nối Vrace & Lớp học**\n- Tối 20h-22h (Thứ Tư & Thứ Bảy)\n- Sáng 5h30 chạy bộ Zone 2\n- Ngày ứng dụng 1 tác vụ xAI",
+      "color": "4"
+    },
+    {
+      "id": "node_10",
+      "x": 480,
+      "y": 660,
+      "width": 320,
+      "height": 180,
+      "type": "text",
+      "text": "### 💬 10. GẮN KẾT GIA ĐÌNH & BỘ LẠC\n**Thấu cảm hai thế hệ**\n- Nhóm Zalo & Facebook truyền lửa\n- Kết nối con cái bằng sự tử tế\n- Quỹ hưu trí an nhàn",
+      "color": "3"
+    },
+    {
+      "id": "node_11",
+      "x": 860,
+      "y": 660,
+      "width": 360,
+      "height": 180,
+      "type": "text",
+      "text": "### 📱 11. BỘ TỰ ĐỘNG ĐĂNG FACEBOOK\n**Chiến dịch lan tỏa cộng đồng**\n- 3 Bài đăng gắn liền 3 Video 16:9\n- Kịch bản trả lời bình luận giọng Tuấn Tử Tế\n- Khơi mở học viên đăng ký khóa học",
+      "color": "1"
+    },
+    {
+      "id": "node_12",
+      "x": 1280,
+      "y": 660,
+      "width": 360,
+      "height": 180,
+      "type": "text",
+      "text": "### 🌐 12. XUẤT BẢN GITHUB PAGES\n**Trực thăng điều hướng V86**\n- Repo: `tuangemini`\n- Vị trí: ĐẦU TIÊN trên trang chủ\n- Sẵn sàng trình chiếu Chrome cho Ông chủ",
+      "color": "2"
+    }
+  ],
+  "edges": [
+    { "id": "e1-2", "fromNode": "node_01", "toNode": "node_02", "fromSide": "right", "toSide": "left" },
+    { "id": "e2-3", "fromNode": "node_02", "toNode": "node_03", "fromSide": "right", "toSide": "left" },
+    { "id": "e3-4", "fromNode": "node_03", "toNode": "node_04", "fromSide": "right", "toSide": "left" },
+    { "id": "e1-5", "fromNode": "node_01", "toNode": "node_05", "fromSide": "bottom", "toSide": "top" },
+    { "id": "e5-6", "fromNode": "node_05", "toNode": "node_06", "fromSide": "right", "toSide": "left" },
+    { "id": "e6-7", "fromNode": "node_06", "toNode": "node_07", "fromSide": "right", "toSide": "left" },
+    { "id": "e7-8", "fromNode": "node_07", "toNode": "node_08", "fromSide": "right", "toSide": "left" },
+    { "id": "e5-9", "fromNode": "node_05", "toNode": "node_09", "fromSide": "bottom", "toSide": "top" },
+    { "id": "e9-10", "fromNode": "node_09", "toNode": "node_10", "fromSide": "right", "toSide": "left" },
+    { "id": "e10-11", "fromNode": "node_10", "toNode": "node_11", "fromSide": "right", "toSide": "left" },
+    { "id": "e11-12", "fromNode": "node_11", "toNode": "node_12", "fromSide": "right", "toSide": "left" }
+  ]
+}
